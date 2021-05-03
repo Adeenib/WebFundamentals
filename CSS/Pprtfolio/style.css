@@ -1,0 +1,171 @@
+
+
+div.contaner{
+    min-width: 600px;
+    min-height: 900px;
+    background-color: #6e5863;
+
+}
+div.contaner div.bar{
+    width: 100%;
+    height: 80px;
+    background-color: silver;
+}
+div.bar h1{
+    display: inline-block;
+    padding-right: 405px;
+    padding-left: 20px;
+}
+div.bar h2{
+    display: inline-block;
+   
+    
+}
+div.contaner div.top{
+    min-width: 600px;
+    min-height: 300px;
+
+
+}
+div.top img{
+    
+    vertical-align: top;
+    display: inline-block;
+    border: 10px solid #c0c0c0;
+    margin: 10px;
+    width: 38%;
+    height: 100%;
+}
+div.topcolwm2 {
+    width: 53%;
+    margin: 10px 10px 0px 36px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: silver;
+    min-height: 331.83px;
+
+}
+div.topcolwm2 h2{
+    margin: 0px;
+    padding: 10px 6px 10px 10px;
+    background-color: #8d8b98;
+    width: 97.5%;
+    height: fit-content;
+
+}
+div.topcolwm2 p{
+    margin: 8px 8px 0px 8px;
+    display: inline-block;
+    width: 97.5%;
+    font-size: 25px;
+    min-height: 228px;
+}
+div.topcolwm2 a{
+    margin: 0px;
+   display: inline-block; 
+    width: 100%;
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+div.down{
+    width: 100%;
+    min-height: 500px;
+}
+div.messege{
+    vertical-align: top;
+    display: inline-block;
+    margin: 15px;
+    width: 30%;
+   min-height: 614.14px;
+    background-color: silver;
+
+}
+div.messege h2{
+    margin: 0px;
+    padding: 10px;
+    background-color: #8d8b98;
+    width: 94.5%;
+    height: fit-content;
+
+}
+div.messege img{
+    
+    vertical-align: top;
+    display: inline-block;
+    
+    width: 100%;
+    height: 30%;
+}
+div.messege p{
+    vertical-align: top;
+    display: inline-block;
+    width: 94%;
+    min-height: 126px;
+    margin: 7px 0px 7px 7px;
+}
+div.downDown img{
+    display: inline-block;
+    margin: 8px;
+    width: 13%;
+    height: 10%;
+}
+div.messege h4{
+    display: inline-block;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+       margin: 7px ;
+       width: fit-content;
+       height:fit-content;
+       margin-left: 36%;
+       padding: 4px;
+       
+   }
+   div.contaner div.bottom{
+    width: 100%;
+    height: 130px;
+    background-color: silver;
+    
+    
+}
+div.bottom h5 {
+    
+    display:block;
+    margin: 41px 0px 0px 527px;
+    padding-top: 37px;
+   
+   
+
+}
+
+div.bottom ul {
+    display: inline-block;
+    width: 100%;
+    height: 130px;
+    margin-left: 405px;
+   
+
+}
+div.bottom ul li{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+div.bottom ul li img {
+   
+    display: inline-block;
+    width: 20px;
+    vertical-align: bottom;
+
+}
+div.bottom ul li a {
+   
+   margin-left: 3px;
+    display: inline-block;
+    width: fit-content;
+    vertical-align: middle;
+
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        .main {
+            display: flex;
+            flex-direction: column;
+            /* align-content: space-around;
+            justify-content: space-around; */
+            width: 20%;
+            max-height: 500px;
+            border: 5px solid black;
+
+        }
+
+        img {
+            margin: 2px;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img id="a" src="img/cat0.png" alt="img/ninja0.png" usemap="img/cat0.png">
+        <img id="b" src="img/cat1.png" alt="img/ninja1.png" usemap="img/cat1.png">
+        <img id="c" src="img/cat2.png" alt="img/ninja2.png" usemap="img/cat2.png">
+        <img id="d" src="img/cat3.png" alt="img/ninja3.png" usemap="img/cat3.png">
+        <img id="e" src="img/cat4.png" alt="img/ninja4.png" usemap="img/cat4.png">
+
+    </div>
+
+
+
+    <script>
+
+
+        $('.main').children('img').mouseover(function () {
+            $(this).attr('src', $(this).attr('alt'));
+        })
+        $('.main').children('img').mouseout(function () {
+            $(this).attr('src', $(this).attr('usemap'));
+        })
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>AddClass</h1>
+        <p id="first_P">Click the button to add class "red" to this paragraph.</p>
+        <button id="firstbutton">AddClass</button>
+    </div>
+    <hr>
+    <div id="second">
+        <h1>Slidetoggle</h1>
+        <p>Click the button to Slidetoggle ahidden image.</p>
+        <img src="Profile_-_Aladdin.png" alt="">
+        <button>Slidetoggle</button>
+    </div>
+    <hr>
+
+    <div id="third">
+        <h1>Append</h1>
+        <p>Click the button to append a new paragraph.</p>
+        <button>Append</button>
+    </div>
+
+    <script>
+
+        $('#firstbutton').click(function () {
+            $('#first_P').addClass('red');
+        });
+        $('#second').children('button').click(function () {
+            $('#second').children('img').toggle();
+        });
+        $('#third').children('button').click(function () {
+            $('#third').children('p').append("new paragraph");
+        });
+    </script>
+</body>
+
+</html>

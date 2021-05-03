@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        .main {
+            display: flex;
+            flex-direction: column;
+            /* align-content: space-around;
+            justify-content: space-around; */
+            width: 20%;
+            max-height: 500px;
+            border: 5px solid black;
+
+        }
+
+        img {
+            margin: 2px;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img id="a" src="img/cat0.png" alt="cat">
+        <img id="b" src="img/cat1.png" alt="cat">
+        <img id="c" src="img/cat2.png" alt="cat">
+        <img id="d" src="img/cat3.png" alt="cat">
+        <img id="e" src="img/cat4.png" alt="cat">
+
+    </div>
+
+
+
+    <script>
+
+
+        $('.main').children('#a').click(function () {
+            $('.main').children('#a').attr("src", "img/ninja0.png");
+        })
+        $('.main').children('#b').click(function () {
+            $('.main').children('#b').attr("src", "img/ninja1.png");
+        })
+        $('.main').children('#c').click(function () {
+            $('.main').children('#c').attr("src", "img/ninja2.png");
+        })
+        $('.main').children('#d').click(function () {
+            $('.main').children('#d').attr("src", "img/ninja3.png");
+        })
+        $('.main').children('#e').click(function () {
+            $('.main').children('#e').attr("src", "img/ninja4.png");
+        })
+
+    </script>
+</body>
+
+</html>

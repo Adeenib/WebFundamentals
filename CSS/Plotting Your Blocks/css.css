@@ -1,0 +1,82 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+height: 660px;
+    width: 1000px;
+    background-color: silver;
+    margin: 0px auto;
+    
+   }
+   #allEle{
+       display: inline-block;
+    
+    width: 1000px;
+    height: 627px;
+   }
+   #header2{
+    padding: 21px;
+    width: 950px;
+    display: inline-block;
+   }
+   #header{
+    margin: 20px;
+    min-height: 145px;
+    width: 945px;
+    background-color: green;
+   }
+   #navigation{
+    margin-bottom: 79px;
+
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+   }
+   #main_content{
+    min-height: 420px;
+    width: 729px;
+    background-color: red;
+    margin-left: 10px;
+   }
+   .subcontents{
+    display: inline-block;
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin-left: 10px;
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+   }
+  #line1{
+      display: inline-block;
+    min-height: 120px;
+    width: 200px;
+   }
+   #line2{
+    display: inline-block;
+    min-height: 400px;
+    width: 700px;
+   }
+   #row1{
+    
+        
+        display: inline-block;
+        min-height:200px;
+        width:700px;
+        margin-left: 18px;
+        margin-top: 28px;
+       }
+  #row2{
+    
+      display: inline-block;
+      min-height: 120px;
+      width: 700px;
+      margin-left: 28px;
+      margin-top: 28px;
+      }
+   

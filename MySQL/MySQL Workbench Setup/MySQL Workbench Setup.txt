@@ -1,0 +1,17 @@
+1)use world;
+
+2)INSERT INTO languages (language, percentage,country_id) 
+VALUES('alaa', 66,34);
+
+3)select * from languages
+where languages.language = 'alaa'
+;
+
+
+4)UPDATE languages SET country_code = 434, percentage =50 WHERE languages.country_id=34;
+
+5)SET SQL_SAFE_UPDATES = 0;
+DELETE FROM languages WHERE languages.language = 'alaa';
+
+
+6)select * from languages;

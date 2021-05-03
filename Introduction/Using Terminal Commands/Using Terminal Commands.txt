@@ -1,0 +1,73 @@
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ mkdir test
+mkdir: cannot create directory â€˜testâ€™: File exists
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ mkdir test
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ cd test
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ touch index.html
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ touch style.css
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ cd ..
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ mkdir destination
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ mv index_2.html destination
+mv: cannot stat 'index_2.html': No such file or directory
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ cd test/
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ mv index_2.html ../destination
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ rm style.css
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/test
+$ cd ..
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ cd estination
+bash: cd: estination: No such file or directory
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ cd destination
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop/destination
+$ cd ..
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ rm destination
+rm: cannot remove 'destination': Is a directory
+
+hp@DESKTOP-9MPT8K5 MINGW64 ~/Desktop
+$ rm -rf destination
